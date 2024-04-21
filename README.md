@@ -27,7 +27,7 @@ This project provides a set of functions and classes to manage the logic of a ga
 1. Clone this repository:
 
     ```bash
-    git clone [<repository-url>](https://github.com/Bilal-Ahmad102/9_men_morris)
+    git clone https://github.com/Bilal-Ahmad102/9_men_morris
     ```
 
 2. Navigate to the project directory:
