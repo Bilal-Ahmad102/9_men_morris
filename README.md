@@ -11,7 +11,7 @@ This project provides a set of functions and classes to manage the logic of a ga
 - **Count Pieces**: Counts the number of pieces a player owns on the board.
 - **Remove Piece**: Removes a piece from the board and returns updated board states.
 - **Possible Moves**: Generates all possible moves for different stages of the game.
-- **Minimax Algorithm**: Uses the MiniMax algorithm for decision-making in the game.
+- **Minimax Algorithm**: Uses the MiniMax algorithm for decision-making in the game.      
 - **Monte Carlo Simulation**: Simulates random games for AI decision-making.
 - **AI vs AI**: Simulates AI vs AI gameplay.
 - **AI vs Human**: Simulates AI vs Human gameplay.
@@ -45,29 +45,53 @@ This project provides a set of functions and classes to manage the logic of a ga
 ### Running the Game
 board:
 0---------------------------1-----------------------------2
+
 |                           |                             |
+
 |                           |                             |
+
 |                           |                             |
+
 |       8-------------------9---------------------10      |
+
 |       |                   |                     |       |
+
 |       |                   |                     |       |
+
 |       |                   |                     |       |
+
 |       |         16---------17----------18       |       |
+
 |       |         |                      |        |       |
+
 |       |         |                      |        |       |
+
 |       |         |                      |        |       |
+
 3-------11---------19                    20-------12------4
+
 |       |         |                      |        |       |
+
 |       |         |                      |        |       |
+
 |       |         |                      |        |       |
+
 |       |         21------- 22-----------23       |       |
+
 |       |                   |                     |       |
+
 |       |                   |                     |       |
+
 |       |                   |                     |       |
+
 |       13------------------14--------------------15      |
+
 |                           |                             |
+
 |                           |                             |
+
 |                           |                             |
+
 5---------------------------6-----------------------------7
 
 You can run the game using the provided functions in the code. For example, to simulate AI vs AI gameplay, run:
