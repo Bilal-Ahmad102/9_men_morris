@@ -43,6 +43,32 @@ This project provides a set of functions and classes to manage the logic of a ga
 - To simulate AI vs Monte Carlo simulation, use the `min_vs_monte()`<repository-name> function.
 
 ### Running the Game
+board:
+0---------------------------1-----------------------------2
+|                           |                             |
+|                           |                             |
+|                           |                             |
+|       8-------------------9---------------------10      |
+|       |                   |                     |       |
+|       |                   |                     |       |
+|       |                   |                     |       |
+|       |         16---------17----------18       |       |
+|       |         |                      |        |       |
+|       |         |                      |        |       |
+|       |         |                      |        |       |
+3-------11---------19                    20-------12------4
+|       |         |                      |        |       |
+|       |         |                      |        |       |
+|       |         |                      |        |       |
+|       |         21------- 22-----------23       |       |
+|       |                   |                     |       |
+|       |                   |                     |       |
+|       |                   |                     |       |
+|       13------------------14--------------------15      |
+|                           |                             |
+|                           |                             |
+|                           |                             |
+5---------------------------6-----------------------------7
 
 You can run the game using the provided functions in the code. For example, to simulate AI vs AI gameplay, run:
     Run `AI_vs_AI` file
