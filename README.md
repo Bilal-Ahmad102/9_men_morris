@@ -102,7 +102,7 @@ The game board is represented as a 3x3 grid with specific positions:
 - **possibleMoves_stage1, possibleMoves_stage2, possibleMoves_stage3**: Generate possible moves for different stages of the game.
 - **possibleMoves_stage2or3**: Checks if the game is in stage 2 or 3 and returns possible moves.
 - **minimax**: Implements the MiniMax algorithm for AI decision-making.
-- **potentialMillsHeuristic**: A heuristic function to calculate potential mills as a factor.
+- **potentialMillsHeuristic**: A heuristic function to evaluate the board at the end Node (terminal Node) of min_max Tree.
 - **monteCarlo**: Function to perform Monte Carlo simulations.
 - **simulateRandomGame**: Simulates random games from a given board position.
 - **mc**: Monte Carlo function to select the best move.
