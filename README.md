@@ -27,32 +27,26 @@ This project provides a set of functions and classes to manage the logic of a ga
 1. Clone this repository:
 
     ```bash
-    git clone <repository-url>
+    git clone [<repository-url>](https://github.com/Bilal-Ahmad102/9_men_morris)
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd <repository-name>
+    cd 9_men_morris
     ```
 
 ### Usage
 
 - To simulate AI vs AI gameplay, you can use the `AI_VS_AI()` function.
 - To simulate AI vs Human gameplay, use the `AI_VS_HUMAN()` function.
-- To simulate AI vs Monte Carlo simulation, use the `min_vs_monte()` function.
+- To simulate AI vs Monte Carlo simulation, use the `min_vs_monte()`<repository-name> function.
 
 ### Running the Game
 
 You can run the game using the provided functions in the code. For example, to simulate AI vs AI gameplay, run:
+    Run `AI_vs_AI` file
 
-```python
-from your_script_name import AI_VS_AI, potentialMillsHeuristic
-
-AI_VS_AI(potentialMillsHeuristic)
-```
-
-Replace `your_script_name` with the name of the Python script that contains the game code.
 
 ## Code Overview
 
