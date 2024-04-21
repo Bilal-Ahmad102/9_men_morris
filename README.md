@@ -1,7 +1,3 @@
-Here's a sample README file for your project. This README provides a brief overview of the project, its purpose, how to set up and run the code, and how to use the provided functions.
-
----
-
 # Game Logic for AI and Human Player
 
 This project provides a set of functions and classes to manage the logic of a game involving two players (AI vs AI, AI vs Human, or AI vs Monte Carlo simulation). The game is divided into three stages, and the provided functions help handle the various stages and evaluate game states using heuristics.
