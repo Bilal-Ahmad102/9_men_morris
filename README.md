@@ -71,7 +71,7 @@ The game board is represented as a 3x3 grid with specific positions:
 |       |         |                      |        |       |
 |       |         |                      |        |       |
 |       |         |                      |        |       |
-3-------11---------19                    20------12------4
+3-------11--------19                     20------12-------4
 |       |         |                      |        |       |
 |       |         |                      |        |       |
 |       |         |                      |        |       |
@@ -88,7 +88,7 @@ The game board is represented as a 3x3 grid with specific positions:
 - The Number on interjunctions show index of agents for both player.
 - when asked to enter the player select the index of interjunction for to place the agent.
 - when asked to takout an agent of opponent in `AI_vs_human` game, Select the index of opponent in list of availible opponent presented in list NOT the index of opponent in board.
-- For example: select the opponent to takeout: [4,2,15,20], if want to select 2, then enter 1 as it is index of 1 in list. enter 3 for 20. 
+- For example: select the opponent to takeout: [4,2,15,20], if want to select 2, then enter 1 as it is index of 2 in list. enter 3 for 20. 
 
 ## Code Overview
 
