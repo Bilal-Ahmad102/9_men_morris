@@ -172,7 +172,8 @@ def possibleMoves_stage1(board,human=False):
                 board_list.append(board_copy)
 
     return board_list
-
+board = ["x" for i in range(24)]
+print(possibleMoves_stage1(board))
 
 # Generating all possible moves for stage 2 of the game
 # That is, when both players have placed all their pieces
@@ -321,6 +322,8 @@ def minimax(board, depth, player1, alpha, beta, isStage1, heuristic):
                 if currentEvaluation.evaluate > alpha:
                     alpha = currentEvaluation.evaluate
                     finalEvaluation.board = move
+                    if alpha >= beta:
+                        break
             else:
 
                 currentEvaluation = minimax(
@@ -329,6 +332,8 @@ def minimax(board, depth, player1, alpha, beta, isStage1, heuristic):
                 if currentEvaluation.evaluate < beta:
                     beta = currentEvaluation.evaluate
                     finalEvaluation.board = move
+                    if alpha >= beta:
+                        break
 
         if player1:
             finalEvaluation.evaluate = alpha
@@ -403,15 +408,13 @@ import random
 # Function to perform Monte Carlo simulations
 def monteCarlo(board, player, stage, iterations=100):
     wins = 0
-    for _ in range(iterations):
+    for i in range(iterations):
         result = simulateRandomGame(board, player, stage)
         
         if result == player:
             wins += 1
     
-    # Avoid division by zero
-    if iterations == 0:
-        return 0
+    
     
     # Return the win rate
     return wins / iterations
